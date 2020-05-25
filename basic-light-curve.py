@@ -4,13 +4,9 @@ Created on Sun May 24 22:57:48 2020
 
 @author: Pragya
 
-Light curve as a piece-wise linear function
-
-Assumed values:
-    Mass of the star: 1.5 times sun = 1.5*1.989 × 10^30 kg
-    Radius of the star: 5 times sun = 5*6.95700×10^8 m
-    
+Light curve during transit
 """
+
 import numpy as np
 import matplotlib.pyplot as plt
 
