@@ -41,7 +41,7 @@ P= 150-30          #120 hrs i.e. 5days
 
 G= 6.67*10**-11     #Gravitational Constant.
 
-Ms= 1.5* 1.989*10**30       #Mass of star, assumed as 1.5 times star
+Ms= 1.5* 1.989*10**30       #Mass of star, assumed as 1.5 times sun
 
 
 a= ((P**2*G*Ms)/(4*np.pi**2))**(1/3)         #Semi-major axis
