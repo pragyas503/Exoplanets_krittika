@@ -4,13 +4,9 @@ Created on Sun May 24 22:57:48 2020
 
 @author: Pragya
 
-Light curve as a piece-wise linear function
-
-Assumed values:
-    Mass of the star: 1.5 times sun = 1.5*1.989 × 10^30 kg
-    Radius of the star: 5 times sun = 5*6.95700×10^8 m
-    
+Light curve during transit
 """
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -45,7 +41,7 @@ P= 150-30          #120 hrs i.e. 5days
 
 G= 6.67*10**-11     #Gravitational Constant.
 
-Ms= 1.5* 1.989*10**30       #Mass of star, assumed as 1.5 times star
+Ms= 1.5* 1.989*10**30       #Mass of star, assumed as 1.5 times sun
 
 
 a= ((P**2*G*Ms)/(4*np.pi**2))**(1/3)         #Semi-major axis
@@ -63,6 +59,9 @@ rho_s= (32*P/(G*np.pi))*((delta**(3/4))/((np.square(tT))-(np.square(tF)))**(3/2)
 i= np.arccos(b*Rs/a)                          #orbital inclination
 
 print('Mass of star: {} kg.\nRadius of star: {} m.\nRadius of planet: {} m.\nSemi-major axis: {} m. \nImpact parameter: {}.\nStellar density: {} kg/m^3. \nOrbital inclination: {} degree'.format(Ms,Rs,Rp,a,b,rho_s,i))
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> d5ec3996b41de2f4446a4c36a1e654077e53ff99
