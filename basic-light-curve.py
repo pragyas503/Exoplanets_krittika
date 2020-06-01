@@ -63,3 +63,6 @@ rho_s= (32*P/(G*np.pi))*((delta**(3/4))/((np.square(tT))-(np.square(tF)))**(3/2)
 i= np.arccos(b*Rs/a)                          #orbital inclination
 
 print('Mass of star: {} kg.\nRadius of star: {} m.\nRadius of planet: {} m.\nSemi-major axis: {} m. \nImpact parameter: {}.\nStellar density: {} kg/m^3. \nOrbital inclination: {} degree'.format(Ms,Rs,Rp,a,b,rho_s,i))
+
+
+
